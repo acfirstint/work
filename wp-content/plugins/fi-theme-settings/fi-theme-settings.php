@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name:       First Internet Theme Settings
- * Plugin URI:        https://firstinternet.co.uk
+ * Plugin Name:       AC Theme Settings
+ * Plugin URI:        https://cookie.co.uk
  * Description:       Add custom settings to a Wordpress theme
  * Version:           0.4.1
- * Author:            First Internet
- * Author URI:        https://firstinternet.co.uk
+ * Author:            M32 Websites
+ * Author URI:        https://cookie.co.uk
  * Text Domain:       theme-settings
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -42,7 +42,7 @@ class FI_theme_settings
         // This page will be under "Settings"
         add_options_page(
             'Settings Admin', 
-            'FI Theme Settings', 
+            'AC Theme Settings', 
             'manage_options', 
             'fi-setting-admin', 
             array( $this, 'create_admin_page' )
