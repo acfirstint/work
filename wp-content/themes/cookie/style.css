@@ -1,9 +1,9 @@
 /*
 Theme Name: cookie
 Theme URI: http://underscores.me/
-Author: Andy Cook
-Author URI: http://fortune-cookie@virgin.com
-Description: An awesome theme
+Author: Andy
+Author URI: http://underscores.me/
+Description: a cool theme
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -272,7 +272,6 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -827,16 +826,15 @@ object {
 
 .wp-caption img[class*="wp-image-"] {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
+	margin: 0 auto;
 }
 
 .wp-caption-text {
 	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
 }
 
 /*--------------------------------------------------------------
@@ -887,4 +885,17 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+
+.background-header {
+    background-image: url('assets/img/P&H_digger1.jpg');
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+}
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: transparent;
 }
